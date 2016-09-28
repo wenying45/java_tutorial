@@ -19,7 +19,7 @@ public class EX4b {
         System.out.print("Enter c: ");
         double c =  Double.parseDouble(user_input.next( ));
         
-        if(c * c == (a * a + b * b)){
+        if(c * c == (a * a * b * b)){
             System.out.println("This is a Pythagoras Triple");
         }
     }    
